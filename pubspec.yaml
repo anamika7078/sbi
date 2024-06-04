@@ -38,7 +38,8 @@ dependencies:
   get: ^4.6.6
   flutter_localizations:
     sdk: flutter
-  flutter_secure_storage: ^9.2.1
+  # flutter_secure_storage: ^9.2.1
+  flutter_secure_storage: ^7.0.1
   http: ^1.2.1
   fluttertoast: ^8.2.5
   form_builder_validators: ^9.1.0
