@@ -10,10 +10,7 @@ class Service extends GetConnect {
   static RxBool isLoading = false.obs;
   static final showPass = false.obs;
 
-  static const storage = FlutterSecureStorage(
-    iOptions: IOSOptions.defaultOptions,
-    aOptions: AndroidOptions.defaultOptions,
-  );
+  static const storage = FlutterSecureStorage();
   static String baseURL = "https://dashboard.sbiglobal.in/sbigflmaster/api";
   static Future<String?> getCompanyId() async {
     return await storage.read(key: 'companyId');
